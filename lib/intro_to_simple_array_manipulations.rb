@@ -10,7 +10,8 @@ def using_uniq(hair_cuts)
   hair_cuts.uniq
 end
 
-def using_flatten
+def using_flatten(instruments)
+  instruments.flatten
 end
 
 def using_delete

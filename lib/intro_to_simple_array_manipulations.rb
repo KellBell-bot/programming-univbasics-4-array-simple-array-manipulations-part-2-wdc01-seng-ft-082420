@@ -6,7 +6,8 @@ def using_insert(list_of_programming_languages, another_lanuage)
   list_of_programming_languages.insert(4, another_lanuage)
 end
 
-def using_uniq
+def using_uniq(hair_cuts)
+  hair_cuts.uniq
 end
 
 def using_flatten
